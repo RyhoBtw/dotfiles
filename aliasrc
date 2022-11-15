@@ -3,8 +3,11 @@ alias sudo='sudo '
 alias ..='cd ..'
 
 alias yay='paru'
-alias ra='ranger'
-alias cat='bat'
+alias yeet='paru -Rcs'
+
+alias minecaft='cd ./.local/share/multimc/instances'
+
+alias ns='nsxiv -a'
 
 alias v='nvim'
 alias vi='nvim'
@@ -12,12 +15,13 @@ alias vim='nvim'
 alias nano='nvim'
 
 alias background='feh --bg-scale'
-alias arch-iso='/opt/arch-iso.sh'
+alias a-iso='/opt/arch-iso.sh'
+alias wlan='/opt/wlan-connect'
 alias kvm-network='sudo virsh net-start default'
-alias audio-fix='/opt/audio-fix.sh'
 
-alias my-server='ssh moritz@85.214.129.9'
-
-alias la='ls -A'
+alias ls='exa -alh'
+alias la='exa -alh'
 
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
+
+alias goxlr='goxlr-daemon'
