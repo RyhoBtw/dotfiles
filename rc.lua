@@ -230,6 +230,7 @@ root.buttons(gears.table.join(
 
 -- {{{ Key bindings
 globalkeys = gears.table.join(
+    awful.key({ modkey, "Shift" }, "s", function () awful.spawn.with_shell("flameshot gui") end),
     awful.key({ modkey,           }, "s",      hotkeys_popup.show_help,
               {description="show help", group="awesome"}),
     awful.key({ modkey,           }, "a",   awful.tag.viewprev,
