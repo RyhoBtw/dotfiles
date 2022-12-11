@@ -541,3 +541,6 @@ awful.spawn.with_shell("~/.fehbg")
 
 -- compositor
 awful.spawn.with_shell("picom")
+
+--discord
+awful.spawn.with_shell("LIBVA_DRIVER_NAME=radeonsi discord --ignore-gpu-blocklist --disable-features=UseOzonePlatform --enable-features=VaapiVideoDecoder --use-gl=desktop --enable-gpu-rasterization --enable-zero-copy")
