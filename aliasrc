@@ -25,3 +25,5 @@ alias la='exa -alh'
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
 
 alias goxlr='goxlr-daemon'
+
+alias maria='mariadb -u root -p'
